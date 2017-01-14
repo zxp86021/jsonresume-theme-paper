@@ -17,7 +17,7 @@
           <div class="header-content">
             {{#if picture}}
               <div class="header-pic">
-                <img src="{{picture}}" class="pic" />
+                <img src="https://{{picture}}" class="pic" />
               </div>
             {{/if}}
             <div class="header-text">
