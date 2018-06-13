@@ -131,13 +131,13 @@
                         {{/if}}
                         {{#ifCond website '&&' company}}
                           <strong>{{position}}</strong>
-                          at <strong><a href="{{website}}">{{company}}:</a></strong>
+                          at <strong><a href="{{website}}">{{company}}</a></strong>
                         {{else}}
                           {{#if company.length}}
                             <strong>{{position}}</strong>
-                            at <strong>{{company}}:</strong>
+                            at <strong>{{company}}</strong>
                           {{else}}
-                            <strong>{{position}}:</strong>
+                            <strong>{{position}}</strong>
                           {{/if}}
                         {{/ifCond}}
                         </p>
@@ -172,9 +172,9 @@
                   </div>
                   <div class="content-text work-listing">
                     {{#if summary}}
-                      <p>
+                      <i>
                         {{summary}}
-                      </p>
+                      </i>
                     {{/if}}
                     {{#if highlights.length}}
                       {{#each highlights}}
@@ -218,7 +218,7 @@
                           {{#if studyType}}
                           {{studyType}}:
                           {{/if}}
-                          <i>{{area}} {{#if gpa}}({{gpa}}){{/if}}</i>
+                          <i>{{area}}</i>
                         </p>
                       {{/if}}
                     </div>
