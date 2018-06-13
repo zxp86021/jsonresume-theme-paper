@@ -143,7 +143,7 @@
                         </p>
                       {{/ifCond}}
                       {{#if summary}}
-                        <i>{{summary}}</i>
+                        <p class="highlight">{{summary}}</p>
                       {{/if}}
                       {{#if highlights.length}}
                         {{#each highlights}}
